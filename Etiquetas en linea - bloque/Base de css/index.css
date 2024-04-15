@@ -1,0 +1,49 @@
+p {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+/*Selectores de etiquetas*/
+
+h2 {
+  color: green;
+}
+
+/*Selector de clase */
+
+.color-rojo {
+  color: red;
+}
+
+.color-azul {
+  color: blue;
+}
+
+#TextoConId {
+  color: violet;
+}
+
+/*Probando gerarquia
+De mayor a menor gerarquia.*/
+
+/*etiqueta*/
+h3 {
+  color: red;
+}
+/*clase*/
+.titulo-clase {
+  color: aqua;
+}
+/*id*/
+#titulo-id {
+  color: blueviolet;
+}
+
+/*Algunas unidades de medidas*/
+
+/*Unidad exacta: px*/
+
+/*Unidades relativas: % */

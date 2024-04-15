@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas-tablas-formularios</title>
+  </head>
+  <body>
+    <!--listas-->
+    <!--lista desordenada-->
+
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!--listas ordenadas-->
+
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <!--tablas-->
+
+    <table>
+      <thead>
+        <tr>
+          <!--table row-->
+          <th colspan="2">Nombre</th>
+          <!--table head figura en negrita-->
+
+          <th>Email</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th rowspan="2">Victoria</th>
+          <!--table date no figura en negrita-->
+          <td>Ureta</td>
+          <td>victoriaureta.dev@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td>Ureta</td>
+          <td>victoriaureta.dev@gmail.com</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="3">Gracias por sumarte</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!--formulario-->
+
+    <!--input-->
+    <input type="text" />
+    <input type="number" />
+    <input type="date" />
+    <input type="file" />
+    <input type="checkbox" />
+    <input type="email" />
+    <input type="month" />
+    <input type="password" />
+    <input type="url" />
+
+    <!--formulario-->
+    <form>
+      <div>
+        <label for="name">Nombre</label>
+        <input type="text" placeholder="Nombre" />
+      </div>
+
+      <div>
+        <label for="name">Apellido</label>
+        <input type="text" placeholder="Apellido" />
+      </div>
+
+      <div>
+        <label for="name">Edad</label>
+        <input type="number" placeholder="Edad" />
+      </div>
+
+      <div>
+        <label for="name">Email</label>
+        <input type="email" placeholder="youremail@gmail.com" />
+      </div>
+    </form>
+  </body>
+</html>

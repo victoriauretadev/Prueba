@@ -1,0 +1,16 @@
+/*Fuentes traidas con import desde google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+
+.titulo {
+  color: red;
+  /*color*/
+
+  /*tamaño de la fuente*/
+  font-size: 80px;
+
+  /*grosor de la fuente*/
+  font-weight: lighter;
+
+  /*familia de la fuente*/
+  /*font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;}*/
+}
